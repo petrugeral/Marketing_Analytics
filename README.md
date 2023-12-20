@@ -66,8 +66,6 @@ These metrics indicate that the model is capable of identifying the majority of 
   
 2. **Repository Structure:**
    - `data/`: Contains the dataset used in the project.
-   - `notebooks/`: Includes Jupyter notebooks used for exploratory analysis and model development.
-   - `src/`: Source code of the project.
    - `models/`: Stores the trained model.
    - `README.md`: This document.
 
