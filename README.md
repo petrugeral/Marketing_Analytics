@@ -7,6 +7,7 @@ This project aims to predict which customers converted in the last marketing cam
 The dataset used in this project was obtained from Kaggle and includes information about sales, marketing campaigns, and customer data.
 
 ### Selected Features
+
 - **Purchase Profile in Percentage Terms:**
   - MntWines_percent
   - MntFruits_percent
@@ -35,7 +36,7 @@ The dataset used in this project was obtained from Kaggle and includes informati
   - main_channel_Store (if the store is their main channel)
   - NumWebVisitsMonth
 
-- **Age Information:**
+- **Customer Specific Information:**
   - Age
 
 ### Feature Engineering
@@ -63,19 +64,17 @@ These metrics indicate that the model is capable of identifying the majority of 
 ## How to Use This Repository
 1. **Prerequisites:**
    - Make sure to have the required libraries installed (check the `requirements.txt` file).
-  
+
 2. **Repository Structure:**
    - `data/`: Contains the dataset used in the project.
    - `models/`: Stores the trained model.
    - `README.md`: This document.
 
 3. **Instructions for Reproduction:**
-   - Execute the notebooks in the order indicated in the `notebooks/` directory.
-   - Use the source code in the `src/` directory to train and evaluate the model.
+   - Execute the notebooks in the order indicated in the `mkt_anl.ipynb` file.
    - The trained model will be saved in the `models/` directory.
 
 4. **Model Parameters:**
-   - Model parameters are defined in the `src/model_train.py` file.
    - Modify parameters as needed for experimentation.
 
 ## Questions and Contact
